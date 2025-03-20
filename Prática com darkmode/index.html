@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Carros Legais</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!--Local de Navbar-->
+    <nav class="navbar">
+        <div class="logodes"><img src="./imgs/carrodesenho.png"; width="100px";></div>
+        <div class="logo">Carros Esportivos</div>
+        <ul>
+            <li><a href="#">Carros econômicos</a></li>
+            <li><a href="#">Suporte</a></li>
+            <li><a href="#">Área do vendedor</a></li>
+            <li><a href="#">Área do comprador</a></li>
+        </ul>   
+        <div onclick="toggleDarkMode()" class="dark-mode-toggle">Dark Mode</div>
+    </nav>
+
+<!--Descrição de carros-->
+<section class="cards">
+    <div class="card">
+        <img src="./imgs/Porsche 911.JPEG" alt="Imagem911">
+        <h3>Porsche 911</h3>
+        <p>O Porsche 911 é um carro desportivo de tração traseira que é considerado um ícone do automóvel. 
+            O modelo 911 tem uma história que começou em 1964, quando a Porsche lançou o Type 901.         </p>
+    </div>
+    <div class="card">
+        <img src="./imgs/Panarema.JPEG" alt="ImagemPanarema">
+        <h3>Porsche Panamera</h3>
+        <p>O Porsche Panamera é um sedã de luxo de grande porte com motor V6 ou V8.
+             O modelo está disponível em versões híbridas e com tração integral. 
+        </p>
+    </div>
+    <div class="card">
+        <img src="./imgs/Ford Mustang.JPEG" alt="ImagemMustang">
+        <h3>Ford Mustang Mach 1</h3>
+        <p>O Ford Mustang Mach 1 é um carro esportivo de alto desempenho
+             com motor V8, suspensão esportiva e aerofólio traseiro. 
+        </p>
+    </div>
+</section>
+
+<section class="cards">
+    <div class="card">
+        <img src="./imgs/AMG C63.jpg" alt="ImagemAMGC63">
+        <h3>Mercedes-AMG C63</h3>
+        <p>O Mercedes-AMG C 63 é um carro esportivo com motor 2.0 turbo de quatro cilindros e tração integral. 
+            O modelo 2025 tem 680 cavalos de potência combinada. 
+        </p>
+    </div>
+    <div class="card">
+        <img src="./imgs/SUBARU BRZ.jpg" alt="ImagemSubaru">
+        <h3>Subaru BRZ 2023</h3>
+        <p>O Subaru BRZ 2023 é um cupê esportivo com motor boxer, tração traseira e câmbio manual de 6 marchas. 
+            Ele foi desenvolvido em parceria com a Toyota. 
+        </p>
+    </div>
+    <div class="card">
+        <img src="./imgs/BMW M3.JPEG" alt="ImagemBMW">
+        <h3>BMW M3</h3>
+        <p>O BMW M3 é um sedã esportivo de alta performance, desenvolvido pela BMW M GmbH.
+             Ele é uma versão mais potente da Série 3 da BMW. 
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>Gabriel Alexandre Ribeiro - 2025</p>
+</footer>
+
+<script src="js/script.js"></script>
+<script>
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode')
+    }
+</script>
+</body>
+</html>
